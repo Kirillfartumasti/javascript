@@ -1,23 +1,26 @@
-
-
-
-
-
-let age = 17;
-let salary;
-
-let x = 3;
-let y = 5;
-
-x = 3;
-
-x = x + 3;
-y = 1 + 8;
-
-
-function showMyNeme(){
-	let name = "Kirill";
-	alert(name);
+function plusOne(){
+	result.innerHTML = parseInt(result.innerHTML) + 3
 }
 
-showMyNeme();
+function minusOne(){
+	result.innerHTML = parseInt(result.innerHTML) - 3
+}
+
+function multiplyOne(){
+	result.innerHTML = parseInt(result.innerHTML) * 3
+}
+
+function splitupOne(){
+	result.innerHTML = parseInt(result.innerHTML) / 3
+}
+
+function powerOne(){
+	result.innerHTML = parseInt(result.innerHTML) ** 3
+}
+
+
+plus.addEventListener("click", plusOne);
+minus.addEventListener("click", minusOne);
+multiply.addEventListener("click", multiplyOne);
+splitup.addEventListener("click", splitupOne);
+power.addEventListener("click", splitupOne);
