@@ -1,0 +1,26 @@
+input[type="button"]{
+    width: 45px;
+    height: 45px;
+    color: white;
+    font-size: medium;
+    border: 0px solid rgb(176, 5, 228);
+    background-color: rgb(93, 25, 78);
+}
+
+#calc{
+    margin-left: 35%;
+    width: 192px;
+    background-color: rgb(176, 5, 228);
+}
+
+#result{
+    font-size: 22pt;
+    text-align: end;
+    color:white;
+    background-color: rgb(176, 5, 228);
+    margin: 0px;
+}
+
+#clc, #pm, #sqrt, #rnd, #del, #mult, #sub, #sum{
+    background-color: rgb(5, 43, 104);
+}
